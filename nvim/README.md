@@ -14,9 +14,9 @@ If you use this configs, you will install plugins below.
 
 ## Key Mapping
 
-1. <C-j>, <C-h>, <C-k>, <C-l> : traverse window
-1. <C-c> : toggle highlight cursor
-1. <space>n : toggle line number
+1. \<C-j\>, \<C-h\>, \<C-k\>, \<C-l\> : traverse window
+1. \<C-c\> : toggle highlight cursor
+1. \<space\>n : toggle line number
 
 ## Supported LSP
 
