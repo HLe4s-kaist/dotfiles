@@ -1,0 +1,5 @@
+require("config.lazy")
+require("config.kmap")
+require("config.setting")
+vim.lsp.enable('luals')
+vim.lsp.enable('clangd')
