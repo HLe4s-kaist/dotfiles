@@ -19,7 +19,7 @@ return {
 	    dashboard.config.layout[2] = require('config.alphaheader')
 
             dashboard.section.buttons.val = {
-		dashboard.button("r", "󰈢  Recently opened files", ""),
+		dashboard.button("r", "󰈢  Recently opened files", "<Cmd>Telescope oldfiles<CR>"),
       		dashboard.button("f", "  Find file", "<Cmd>FzfLua files<CR>"),
       		dashboard.button("n", "  New file", "<Cmd>ene<CR>"),
       		dashboard.button("p", "󰂖  Plugins", "<Cmd>Lazy<CR>"),
