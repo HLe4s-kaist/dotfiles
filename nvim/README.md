@@ -9,7 +9,7 @@ If you use this configs, you will install plugins below.
 
 1. Lazy : plugin manager
 1. nvim-tree : file-system traverse
-1. Fzflua : fzf 
+1. Telescope : livegrep, findfiles, etc
 1. teide : colorscheme
 
 ## Key Mapping

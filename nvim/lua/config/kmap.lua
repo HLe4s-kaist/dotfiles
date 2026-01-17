@@ -48,9 +48,8 @@ vim.keymap.set("n", "<C-c>", function()
 	end
 end, {silent = true})
 
--- FZF livegrep 
-require("fzf-lua")
-vim.keymap.set("n", "<space>fw", ":FzfLua live_grep<CR>", {silent = true})
+-- Telescope livegrep 
+vim.keymap.set("n", "<space>fw", ":Telescope live_grep<CR>", {silent = true})
 
 -- LSP keymap on LspAttach
 vim.api.nvim_create_autocmd('LspAttach', {
