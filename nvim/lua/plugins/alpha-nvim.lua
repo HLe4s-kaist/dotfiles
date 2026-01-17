@@ -20,7 +20,7 @@ return {
 
             dashboard.section.buttons.val = {
 		dashboard.button("r", "󰈢  Recently opened files", "<Cmd>Telescope oldfiles<CR>"),
-      		dashboard.button("f", "  Find file", "<Cmd>FzfLua files<CR>"),
+      		dashboard.button("f", "  Find file", "<Cmd>Telescope find_files<CR>"),
       		dashboard.button("n", "  New file", "<Cmd>ene<CR>"),
       		dashboard.button("p", "󰂖  Plugins", "<Cmd>Lazy<CR>"),
       		dashboard.button("q", "󰅚  Quit", "<Cmd>qa<CR>"),

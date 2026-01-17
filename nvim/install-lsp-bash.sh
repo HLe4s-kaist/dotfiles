@@ -3,7 +3,7 @@
 echo "Installing LSPs.."
 case $ID in
   ubuntu)
-	sudo apt update && sudo apt install -y clangd lua-language-server
+	sudo apt update && sudo apt install -y clangd; sudo apt install -y lua-language-server
     ;;
 
   arch) 

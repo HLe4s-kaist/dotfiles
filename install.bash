@@ -6,7 +6,9 @@
 case $ID in
   ubuntu) echo "Detected distribution : Ubuntu"
 	echo "Installing Dependencies.."
-	sudo apt update && sudo apt install -y nvim
+	echo "this dotfiles need nvim version newer than 0.11 but with apt you can't get it."
+	echo "Try install it by yourself."
+	#sudo apt update && sudo apt install -y neovim
 	source nvim/install-bash.sh
     ;;
 

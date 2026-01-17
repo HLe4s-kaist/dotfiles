@@ -6,7 +6,7 @@ This is dot files for me.
 
 This dotfiles now supports for ...  
 ```
-nvim
+nvim >= 0.11.0
 ```
 but maybe this will support others later.  
 Commands in `Quick Start` section will install tools listed above.
