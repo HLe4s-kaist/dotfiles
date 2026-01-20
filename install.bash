@@ -11,15 +11,15 @@ case $ID in
 	echo "Try install it by yourself."
 	#sudo apt update && sudo apt install -y neovim
 	sudo apt install -y tmux
-	source nvim/install-bash.sh
-	source tmux/install-bash.sh
+	source ~/dotfiles/nvim/install-bash.sh
+	source ~/dotfiles/tmux/install-bash.sh
     ;;
 
   arch) echo "Detected distribution : Arch"
 	echo "Installing Dependencies.."
 	yes | sudo pacman -Syu && yes | sudo pacman -S nvim tmux
-	source nvim/install-bash.sh
-	source tmux/install-bash.sh
+	source ~/dotfiles/nvim/install-bash.sh
+	source ~/dotfiles/tmux/install-bash.sh
     ;;
 
   *) echo "Your distribution is not supported :("
