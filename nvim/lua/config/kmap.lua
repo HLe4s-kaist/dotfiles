@@ -48,8 +48,9 @@ vim.keymap.set("n", "<C-c>", function()
 	end
 end, {silent = true})
 
--- Telescope livegrep 
+-- Telescope 
 vim.keymap.set("n", "<space>fw", ":Telescope live_grep<CR>", {silent = true})
+vim.keymap.set("n", "<space>ff", ":Telescope find_files<CR>", {silent = true})
 
 -- LSP keymap on LspAttach
 vim.api.nvim_create_autocmd('LspAttach', {

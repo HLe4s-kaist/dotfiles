@@ -19,12 +19,18 @@ If you use this configs, you will install plugins below.
 1. \<C-j\>, \<C-h\>, \<C-k\>, \<C-l\> : traverse window
 1. \<C-c\> : toggle highlight cursor
 1. \<space\>n : toggle line number
+1. \<space\>fw : telescope live grep
+1. \<space\>ff : telescope find files
+
+### LSP Key Mapping
+
+1. gd : go to definition
+1. grr : show all reference
+1. \<C-w\>d : show diagnostic (warning or error)
+1. ]d : go to next diagnostic (warning or error)
+1. [d : go to prev diagnostic (warning or error)
 
 ## Supported LSP
 
 1. clangd
 1. lua-language-server
-
-## Functions
-
-TODO
