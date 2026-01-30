@@ -34,3 +34,4 @@ If you use this configs, you will install plugins below.
 
 1. clangd
 1. lua-language-server
+1. pylsp
