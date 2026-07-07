@@ -22,7 +22,8 @@ return {
   config = function()
     require("nvim-tree").setup 
     {
-	on_attach = nvim_tree_on_attach,
+		on_attach = nvim_tree_on_attach,
+		git = { ignore = false },
     }
   end,
 }
