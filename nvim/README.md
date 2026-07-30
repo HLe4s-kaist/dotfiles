@@ -13,6 +13,7 @@ If you use this configs, you will install plugins below.
 1. teide : colorscheme
 1. lualine : status bottom line
 1. alpha-nvim : nvim dashboard
+1. nvim-cmp : auto-completion used with `cmp-path`, `nvim-lsp`(not teseted)
 
 ## Key Mapping
 
