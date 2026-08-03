@@ -1,1 +1,1 @@
-cp ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
+cp ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf

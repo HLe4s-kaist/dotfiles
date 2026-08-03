@@ -7,7 +7,7 @@ case $ID in
     ;;
 
   arch) 
-	yes | sudo pacman -Syu && yes | sudo pacman -S clangd lua-language-server python-lsp-server
+	yes | sudo pacman -Syu && yes | sudo pacman -S clangd lua-language-server python-lsp-server rust-analyzer
     ;;
 
   *) echo "Your distribution is not supported :("

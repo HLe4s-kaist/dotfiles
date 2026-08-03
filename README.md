@@ -20,8 +20,8 @@ To install this dotfiles on your system,
 
 on bash
 ```bash
-git clone https://github.com/HLe4s-kaist/dotfiles.git ~/dotfiles
-source ~/dotfiles/install.bash
+git clone https://github.com/HLe4s-kaist/dotfiles.git ~/.dotfiles
+source ~/.dotfiles/install.bash
 ```
 
 on fish, zsh, chsh ...
