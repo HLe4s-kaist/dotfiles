@@ -14,6 +14,7 @@ If you use this configs, you will install plugins below.
 1. lualine : status bottom line
 1. alpha-nvim : nvim dashboard
 1. nvim-cmp : auto-completion used with `cmp-path`, `nvim-lsp`(not teseted)
+1. Quickmath : fast math calculation
 
 ## Key Mapping
 
@@ -22,6 +23,7 @@ If you use this configs, you will install plugins below.
 1. \<space\>n : toggle line number
 1. \<space\>fw : telescope live grep
 1. \<space\>ff : telescope find files
+1. \<space\>bc : new buffer with quickmath
 
 ### LSP Key Mapping
 
