@@ -71,4 +71,4 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 -- new buffer with quickmath
-vim.keymap.set("n", "<space>bc", ":new<CR>Quickmath<CR>", {silent = true})
+vim.keymap.set("n", "<space>bc", ":new<CR>:Quickmath<CR>", {silent = true})
