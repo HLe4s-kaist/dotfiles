@@ -24,7 +24,7 @@ git clone https://github.com/HLe4s-kaist/dotfiles.git --depth 1 ~/.dotfiles
 source ~/.dotfiles/install.bash
 ```
 
-on fish, zsh, chsh ...
+on fish, zsh, ...
 **I don't use them**
 
 ### Windows
