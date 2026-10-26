@@ -20,7 +20,7 @@ To install this dotfiles on your system,
 
 on bash
 ```bash
-git clone https://github.com/HLe4s-kaist/dotfiles.git ~/.dotfiles
+git clone https://github.com/HLe4s-kaist/dotfiles.git --depth 1 ~/.dotfiles
 source ~/.dotfiles/install.bash
 ```
 
